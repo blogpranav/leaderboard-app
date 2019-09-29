@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background_gradient">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:padding="30sp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:id="@+id/button"
+            android:text="GAME 3"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10sp"
+            android:layout_gravity="center">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="208dp"
+                android:orientation="vertical"
+                android:padding="10sp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PLAYER"
+                    android:padding="5sp"
+                    android:textSize="20sp" />
+
+
+                <TextView
+                    android:id="@+id/teama"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="A1"
+                    android:padding="5sp"
+                    android:textSize="20sp" />
+
+
+                <TextView
+                    android:id="@+id/teamb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="A2"
+                    android:padding="5sp"
+                    android:textSize="20sp" />
+
+
+                <TextView
+                    android:id="@+id/teamc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="A3"
+                    android:padding="5sp"
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="208dp"
+                android:orientation="vertical"
+                android:padding="10sp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="KILLS"
+                    android:textSize="20sp"
+                    android:padding="5sp"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:padding="5sp"
+                    android:id="@+id/killsA"
+                    android:textSize="20sp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:padding="5sp"
+                    android:id="@+id/killsB"
+                    android:textSize="20sp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:padding="5sp"
+                    android:id="@+id/killsC"
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
